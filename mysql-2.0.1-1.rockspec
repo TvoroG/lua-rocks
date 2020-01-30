@@ -2,7 +2,7 @@ package = 'mysql'
 version = '2.0.1-1'
 source  = {
     url = 'git://github.com/tarantool/mysql.git',
-    branch = '7a63383cba2db8bd1a840ed568b1f409960281ac',
+    branch = 'master',
 }
 description = {
     summary  = "MySQL connector for Tarantool",
