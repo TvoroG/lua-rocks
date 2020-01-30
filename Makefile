@@ -1,2 +1,2 @@
 all:
-	luarocks-admin make_manifest ./
+	luarocks-admin make_manifest ./ && mv index.html manifest* public/
