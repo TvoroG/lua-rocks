@@ -8,6 +8,13 @@ repository = {
          }
       }
    },
+   errors = {
+      ["2.1.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    expirationd = {
       ["1.0.1-1"] = {
          {
@@ -44,6 +51,13 @@ repository = {
       }
    },
    ["package.reload"] = {
+      ["0.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   sentry = {
       ["0.0.1-1"] = {
          {
             arch = "rockspec"

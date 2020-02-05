@@ -1,5 +1,5 @@
 package = 'errors'
-version = '2.1.2'
+version = '2.1.2-1'
 source = {
     url = 'git://github.com/tarantool/errors.git',
     tag = '2.1.2',
