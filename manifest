@@ -36,6 +36,13 @@ repository = {
          }
       }
    },
+   luacov = {
+      ["0.14.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    metrics = {
       ["0.1.8-1"] = {
          {
