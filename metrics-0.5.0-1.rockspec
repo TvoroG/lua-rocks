@@ -23,7 +23,15 @@ build = {
 
     modules = {
         ['metrics']                                      = 'metrics/init.lua',
-        ['metrics.details']                              = 'metrics/details/init.lua',
+        ['metrics.registry']                             = 'metrics/registry.lua',
+        ['metrics.quantile']                             = 'metrics/quantile.lua',
+        ['metrics.http_middleware']                      = 'metrics/http_middleware.lua',
+        ['metrics.collectors.shared']                    = 'metrics/collectors/shared.lua',
+        ['metrics.collectors.average']                   = 'metrics/collectors/average.lua',
+        ['metrics.collectors.summary']                   = 'metrics/collectors/summary.lua',
+        ['metrics.collectors.counter']                   = 'metrics/collectors/counter.lua',
+        ['metrics.collectors.gauge']                     = 'metrics/collectors/gauge.lua',
+        ['metrics.collectors.histogram']                 = 'metrics/collectors/histogram.lua',
         ['metrics.plugins.graphite']                     = 'metrics/plugins/graphite/init.lua',
         ['metrics.plugins.prometheus']                   = 'metrics/plugins/prometheus/init.lua',
         ['metrics.plugins.json']                         = 'metrics/plugins/json/init.lua',
@@ -38,6 +46,11 @@ build = {
         ['metrics.default_metrics.tarantool.slab']       = 'metrics/default_metrics/tarantool/slab.lua',
         ['metrics.default_metrics.tarantool.spaces']     = 'metrics/default_metrics/tarantool/spaces.lua',
         ['metrics.default_metrics.tarantool.system']     = 'metrics/default_metrics/tarantool/system.lua',
-        ['metrics.default_metrics.tarantool.utils']      = 'metrics/default_metrics/tarantool/utils.lua',
+        ['metrics.psutils.cpu']                          = 'metrics/psutils/cpu.lua',
+        ['metrics.psutils.psutils_linux']                = 'metrics/psutils/psutils_linux.lua',
+        ['metrics.utils']                                = 'metrics/utils.lua',
+        ['cartridge.roles.metrics']                      = 'cartridge/roles/metrics.lua',
     }
 }
+
+-- vim: syntax=lua
