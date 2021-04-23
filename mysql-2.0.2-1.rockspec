@@ -1,8 +1,8 @@
 package = 'mysql'
 version = '2.0.2-1'
 source  = {
-    url = 'https://github.com/tarantool/mysql/archive/8a837fa851d13cc28c4fade28306ec29a1a9f0b3.zip',
-    dir = 'mysql-8a837fa851d13cc28c4fade28306ec29a1a9f0b3',
+    url = 'git://github.com/tarantool/mysql.git',
+    branch = 'master',
 }
 description = {
     summary  = "MySQL connector for Tarantool",
